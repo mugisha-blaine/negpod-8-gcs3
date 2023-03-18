@@ -1,0 +1,11 @@
+#!/usr/bash
+file = "name.txt"
+if [ -e "$file" ]; then
+    if [ -s "$file ]; then
+        echo '0'
+    else
+        echo '1'
+    fi
+else  
+    echo '2'
+fi
